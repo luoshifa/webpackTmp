@@ -112,7 +112,7 @@ var webPackConfig={
     },
     plugins:[
         new VueLoaderPlugin(),
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(),
         new ParallelUglifyPlugin({
             sourceMap: true
         }),

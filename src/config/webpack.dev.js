@@ -110,7 +110,7 @@ var webPackConfig={
     },
     plugins:[
         new VueLoaderPlugin(),
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(),
     ]
 }
 
