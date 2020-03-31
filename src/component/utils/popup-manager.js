@@ -58,6 +58,7 @@ const PopupManager = {
             return;
         }
         let modalDom = getModal();
+        removeClass(modalDom,'hm-modal-leave');
         addClass(modalDom,'hm_modal');
         addClass(modalDom,'hm-modal-enter');
         setTimeout(() => {
